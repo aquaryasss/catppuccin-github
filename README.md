@@ -1,2 +1,2 @@
 # catppuccin-github
-Customized Catppuccin theme for Github.
+Ultra mega super duper pink color scheme for github
