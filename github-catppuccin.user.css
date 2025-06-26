@@ -1,0 +1,24 @@
+/* ==UserStyle==
+@name        GitHub Catppuccin Theme
+@namespace   https://github.com/aquaryasss
+@author      aquaryasss (https://github.com/aquaryasss)
+@version     1.0.0
+@description Catppuccin pink theme for GitHub contributions
+@match       https://github.com/*
+@homepageURL https://github.com/aquaryasss/catppuccin-github
+@supportURL  https://github.com/aquaryasss/catppuccin-github/issues
+@updateURL   https://raw.githubusercontent.com/aquaryasss/catppuccin-github/main/github-catppuccin.user.css
+@license     MIT
+==/UserStyle== */
+
+.js-yearly-contributions {
+  --contribution-default-bgColor-0: transparent !important;
+  --contribution-default-bgColor-1: #f5c2e7 !important;
+  --contribution-default-bgColor-2: #f1a7dd !important;
+  --contribution-default-bgColor-3: #ee96d6 !important;
+  --contribution-default-bgColor-4: #ea76cb !important;
+}
+
+.ContributionCalendar-day rect {
+  fill: var(--contribution-default-bgColor, var(--contribution-default-bgColor-0)) !important;
+}
