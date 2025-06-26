@@ -11,12 +11,96 @@
 @license     MIT
 ==/UserStyle== */
 
+body {
+  background-color: #1e1e2e !important;
+  color: #c9d1d9 !important;
+}
+
+.AppHeader {
+  background: #171825 !important;
+}
+
+.color-bg-default, .d-md-flex {
+  background: #1e1e2e !important;
+}
+
+.filter-item.selected, .filter-item[aria-current]:not([aria-current="false"]) {
+  background-color: #f5c2e7 !important;
+  color: #1e1e2e !important;
+}
+
+.btn {
+  background-color: #f5c2e7 !important;
+  color: #1e1e2e !important;
+}
+
+.btn:hover {
+  background-color: #f1a7dd !important;
+}
+
+.Box {
+  background-color: #24273a !important;
+  border-color: #494d64 !important;
+}
+
+.Progress-item[style] {
+  background-color: #f5c2e7 !important;
+}
+
+.Progress-item[style*="width: 1%"],
+.Progress-item[style*="width: 2%"],
+.Progress-item[style*="width: 3%"],
+.Progress-item[style*="width: 4%"],
+.Progress-item[style*="width: 5%"],
+.Progress-item[style*="width: 6%"],
+.Progress-item[style*="width: 7%"],
+.Progress-item[style*="width: 8%"],
+.Progress-item[style*="width: 9%"],
+.Progress-item[style*="width: 10%"],
+.Progress-item[style*="width: 11%"],
+.Progress-item[style*="width: 12%"],
+.Progress-item[style*="width: 13%"],
+.Progress-item[style*="width: 14%"],
+.Progress-item[style*="width: 15%"],
+.Progress-item[style*="width: 16%"],
+.Progress-item[style*="width: 17%"],
+.Progress-item[style*="width: 18%"],
+.Progress-item[style*="width: 19%"],
+.Progress-item[style*="width: 20%"],
+.Progress-item[style*="width: 21%"],
+.Progress-item[style*="width: 22%"],
+.Progress-item[style*="width: 23%"],
+.Progress-item[style*="width: 24%"] {
+  background-color: #f5c2e7 !important;
+}
+
+.Progress-item[style*="width: 2"][style*="%"],
+.Progress-item[style*="width: 3"][style*="%"],
+.Progress-item[style*="width: 4"][style*="%"] {
+  background-color: #f1a7dd !important;
+}
+
+.Progress-item[style*="width: 5"][style*="%"],
+.Progress-item[style*="width: 6"][style*="%"] {
+  background-color: #ee96d6 !important;
+}
+
+.Progress-item[style*="width: 7"][style*="%"],
+.Progress-item[style*="width: 8"][style*="%"],
+.Progress-item[style*="width: 9"][style*="%"] {
+  background-color: #eb84d0 !important;
+}
+
+.Progress-item[style*="width: 100%"] {
+  background-color: #eb84d0 !important;
+}
+
 .js-yearly-contributions {
-  --contribution-default-bgColor-0: transparent !important;
-  --contribution-default-bgColor-1: #f5c2e7 !important;
-  --contribution-default-bgColor-2: #f1a7dd !important;
-  --contribution-default-bgColor-3: #ee96d6 !important;
-  --contribution-default-bgColor-4: #ea76cb !important;
+  --contribution-default-bgColor-0: #24273a !important;
+  --contribution-default-bgColor-1: #F5C2E7 !important;
+  --contribution-default-bgColor-2: #F1A7DD !important;
+  --contribution-default-bgColor-3: #EE96D6 !important;
+  --contribution-default-bgColor-4: #EB84D0 !important;
 }
 
 .ContributionCalendar-day rect {
