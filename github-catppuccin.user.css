@@ -13,7 +13,54 @@
 
 body {
   background-color: #1e1e2e !important;
-  color: #c9d1d9 !important;
+  color: #737994 !important;
+}
+
+.Link--muted, .color-fg-muted, .filter-item {
+  color: #737994 !important;
+}
+
+.Link, .Button--link, .user-status-message-wrapper .color-fg-muted:hover, .Link--muted:hover, .Link--primary:hover {
+  color: #89b4fa !important;
+}
+
+@layer primer-css-base {
+    .Link--inTextBlock {
+        color: #89b4fa !important;
+    }
+}
+
+@layer primer-css-base {
+    .mt-n3 .d-inline-block {
+        color: #89b4fa !important;
+    }
+}
+
+.State--merged {
+  background-color: #b4befe !important;
+  box-shadow: 1px #b4befe !important;
+  color: #1e1e2e !important;
+}
+
+.color-fg-done {
+  color: #b4befe !important;
+}
+
+.color-fg-success {
+  color: #b3e6b0 !important;
+}
+
+.AppHeader .AppHeader-globalBar .AppHeader-context .AppHeader-context-item, 
+.AppHeader .AppHeader-globalBar .AppHeader-logo svg, .footer-octicon {
+  color: #f5c2e7 !important;
+}
+
+.vcard-username, .Link--secondary {
+  color: #949cbb !important;
+}
+
+.UnderlineNav-octicon {
+  fill: #949cbb !important;
 }
 
 .AppHeader {
@@ -38,9 +85,9 @@ body {
   background-color: #f1a7dd !important;
 }
 
-.Box {
+.Box, .Button.Button--iconOnly, .Button--secondary, .AppHeader .AppHeader-globalBar .AppHeader-search .AppHeader-searchButton, .AppHeader .AppHeader-button, .user-status-circle-badge, .TimelineItem-badge {
   background-color: #24273a !important;
-  border-color: #494d64 !important;
+  border: 1px solid #494d64 !important;
 }
 
 .Progress-item[style] {
@@ -97,10 +144,10 @@ body {
 
 .js-yearly-contributions {
   --contribution-default-bgColor-0: #24273a !important;
-  --contribution-default-bgColor-1: #F5C2E7 !important;
-  --contribution-default-bgColor-2: #F1A7DD !important;
-  --contribution-default-bgColor-3: #EE96D6 !important;
-  --contribution-default-bgColor-4: #EB84D0 !important;
+  --contribution-default-bgColor-1: #f5c2e766 !important;
+  --contribution-default-bgColor-2: #f5c2e799 !important;
+  --contribution-default-bgColor-3: #f5c2e7CC !important;
+  --contribution-default-bgColor-4: #f5c2e7FF !important;
 }
 
 .ContributionCalendar-day rect {
