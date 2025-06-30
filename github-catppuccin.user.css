@@ -16,11 +16,17 @@ body {
   color: #737994 !important;
 }
 
-.Link--muted, .color-fg-muted, .filter-item {
+.Link--muted, .color-fg-muted, .filter-item, .fasVIL, .fgColor-muted, .chxevg, .eTeSjW {
   color: #737994 !important;
 }
 
-.Link, .Button--link, .user-status-message-wrapper .color-fg-muted:hover, .Link--muted:hover, .Link--primary:hover {
+@layer primer-react {
+    .prc-FormControl-Caption-tfuKU {
+        color: #737994 !important;
+    }
+}
+
+.Link, .Button--link, .user-status-message-wrapper .color-fg-muted:hover, .Link--muted:hover, .Link--primary:hover, .Link--secondary:hover {
   color: #89b4fa !important;
 }
 
@@ -36,6 +42,18 @@ body {
     }
 }
 
+@layer primer-css-base {
+    .wb-break-all a {
+        color: #89b4fa !important;
+    }
+}
+
+@layer primer-react {
+    :where(.prc-Link-Link-85e08) {
+        color: #89b4fa !important;
+    }
+}
+
 .State--merged {
   background-color: #b4befe !important;
   box-shadow: 1px #b4befe !important;
@@ -46,8 +64,15 @@ body {
   color: #b4befe !important;
 }
 
-.color-fg-success {
+.color-fg-success, .ixHFNt[data-size="medium"][data-no-visuals] {
   color: #b3e6b0 !important;
+}
+
+@layer primer-react {
+    .prc-Button-ButtonBase-c50BI:where([data-variant="primary"]){
+        background-color: #b3e6b0 !important;
+        color: #1e1e2e !important;
+    }
 }
 
 .AppHeader .AppHeader-globalBar .AppHeader-context .AppHeader-context-item, 
@@ -67,6 +92,9 @@ body {
   background: #171825 !important;
 }
 
+.btn-primary .octicon, .btn .octicon {
+  color: #171825 !important;
+}
 .color-bg-default, .d-md-flex {
   background: #1e1e2e !important;
 }
@@ -85,9 +113,16 @@ body {
   background-color: #f1a7dd !important;
 }
 
-.Box, .Button.Button--iconOnly, .Button--secondary, .AppHeader .AppHeader-globalBar .AppHeader-search .AppHeader-searchButton, .AppHeader .AppHeader-button, .user-status-circle-badge, .TimelineItem-badge {
+.Box, .Button.Button--iconOnly, .Button--secondary, .AppHeader .AppHeader-globalBar .AppHeader-search .AppHeader-searchButton, .AppHeader .AppHeader-button, .user-status-circle-badge, .TimelineItem-badge, .form-control {
   background-color: #24273a !important;
   border: 1px solid #494d64 !important;
+}
+
+@layer primer-react {
+    .prc-components-TextInputBaseWrapper-ueK9q, .prc-Button-ButtonBase-c50BI:where([data-variant="default"]) {
+        background-color: #24273a !important;
+        border: 1px solid #494d64 !important;
+    }
 }
 
 .Progress-item[style] {
