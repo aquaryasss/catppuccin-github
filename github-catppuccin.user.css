@@ -16,7 +16,11 @@ body {
   color: #737994 !important;
 }
 
-.Link--muted, .color-fg-muted, .filter-item, .fasVIL, .fgColor-muted, .chxevg, .eTeSjW {
+.Overlay, .Box-sc-g0xbh4-0, #\:r1c\: {
+  background-color: #1e1e2e !important;
+}
+
+.Link--muted, .color-fg-muted, .filter-item, .fasVIL, .fgColor-muted, .chxevg, .eTeSjW, .ActionList-sectionDivider .ActionList-sectionDivider-title, .color-fg-subtle, .ActionListItem-visual, .Overlay-closeButton, .prc-Dialog-Dialog-luvDS .octicon {
   color: #737994 !important;
 }
 
@@ -26,7 +30,7 @@ body {
     }
 }
 
-.Link, .Button--link, .user-status-message-wrapper .color-fg-muted:hover, .Link--muted:hover, .Link--primary:hover, .Link--secondary:hover {
+.Link, .Button--link, .user-status-message-wrapper .color-fg-muted:hover, .Link--muted:hover, .Link--primary:hover, .Link--secondary:hover, .d-flex .Link {
   color: #89b4fa !important;
 }
 
