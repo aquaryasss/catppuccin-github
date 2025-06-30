@@ -20,12 +20,31 @@ body {
   background-color: #1e1e2e !important;
 }
 
-.Link--muted, .color-fg-muted, .filter-item, .fasVIL, .fgColor-muted, .chxevg, .eTeSjW, .ActionList-sectionDivider .ActionList-sectionDivider-title, .color-fg-subtle, .ActionListItem-visual, .Overlay-closeButton, .prc-Dialog-Dialog-luvDS .octicon {
+.prc-Button-ButtonContent-HKbr- .hide-sm, .prc-Button-ButtonContent-HKbr- .octicon-triangle-down, .Box-sc-g0xbh4-0 .octicon-eye, .Box-sc-g0xbh4-0 .octicon-triangle-down, .Counter, #\:rr\: .prc-Button-Label-pTQ3x {
+  color: #171825 !important;
+}
+
+@layer primer-react {
+    .prc-Button-ButtonBase-c50BI:where([data-variant="default"]) {
+        color: #171825 !important;
+    }
+}
+
+.Box-sc-g0xbh4-0 {
+  background-color: transparent !important;
+}
+
+.NotificationsSubscriptionsMenu-module__watchCounter--nAbhU, .btn .Counter {
+  background-color: transparent !important;
+  border: 1px solid #171825 !important;
+}
+
+.Link--muted, .color-fg-muted, .filter-item, .fasVIL, .fgColor-muted, .chxevg, .eTeSjW, .ActionList-sectionDivider .ActionList-sectionDivider-title, .color-fg-subtle, .ActionListItem-visual, .Overlay-closeButton, .prc-Dialog-Dialog-luvDS .octicon, .OverviewContent-module__Button--MDoYP, .bSA-djh[data-size="medium"] svg, .react-directory-commit-age, .BorderGrid-cell .octicon-pulse, .BorderGrid-cell .octicon-star, .BorderGrid-cell .octicon-eye, .BorderGrid-cell .octicon-repo-forked, .BorderGrid-cell .Link, .Box-sc-g0xbh4-0 .prc-Button-Label-pTQ3x {
   color: #737994 !important;
 }
 
 @layer primer-react {
-    .prc-FormControl-Caption-tfuKU {
+    .prc-FormControl-Caption-tfuKU, .prc-Button-ButtonBase-c50BI:where([data-variant="invisible"]) .prc-Button-Visual-2epfX, .prc-Button-ButtonBase-c50BI:where([data-variant="default"]), .prc-components-UnderlineItem-lJsg- [data-component="icon"] {
         color: #737994 !important;
     }
 }
@@ -92,7 +111,7 @@ body {
   fill: #949cbb !important;
 }
 
-.AppHeader {
+.AppHeader, .bgColor-muted, .OverviewRepoFiles-module__Box_3--Bi2jM {
   background: #171825 !important;
 }
 
@@ -115,6 +134,13 @@ body {
 
 .btn:hover {
   background-color: #f1a7dd !important;
+}
+
+@layer primer-react {
+  .d-md-block .prc-Button-ButtonBase-c50BI:where([data-variant="default"]) {
+    background-color: #f5c2e7 !important;
+    border: 1px solid #1e1e2e !important;
+  }
 }
 
 .Box, .Button.Button--iconOnly, .Button--secondary, .AppHeader .AppHeader-globalBar .AppHeader-search .AppHeader-searchButton, .AppHeader .AppHeader-button, .user-status-circle-badge, .TimelineItem-badge, .form-control {
@@ -192,3 +218,4 @@ body {
 .ContributionCalendar-day rect {
   fill: var(--contribution-default-bgColor, var(--contribution-default-bgColor-0)) !important;
 }
+
