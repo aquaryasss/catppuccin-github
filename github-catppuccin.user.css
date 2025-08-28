@@ -1,326 +1,330 @@
 /* ==UserStyle==
-@name        GitHub Catppuccin Theme
-@namespace   https://github.com/aquaryasss
-@author      aquaryasss (https://github.com/aquaryasss)
-@version     1.0.0
-@description Catppuccin pink theme for GitHub contributions
-@match       https://github.com/*
-@homepageURL https://github.com/aquaryasss/catppuccin-github
-@supportURL  https://github.com/aquaryasss/catppuccin-github/issues
-@updateURL   https://raw.githubusercontent.com/aquaryasss/catppuccin-github/main/github-catppuccin.user.css
-@license     MIT
+@name           github.com/aquaryasss
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
 ==/UserStyle== */
-body {
-    background-color: #1e1e2e !important;
-    color: #737994 !important;
-}
-
-.Overlay,
-.Box-sc-g0xbh4-0,
-#\:r1c\:,
-.prc-Dialog-Dialog-luvDS {
-    background-color: #1e1e2e !important;
-}
-
-.prc-Button-ButtonContent-HKbr- .hide-sm,
-.prc-Button-ButtonContent-HKbr- .octicon-triangle-down,
-.Box-sc-g0xbh4-0 .octicon-eye,
-.Box-sc-g0xbh4-0 .octicon-triangle-down,
-.Counter,
-#\:rr\: .prc-Button-Label-pTQ3x[data-component="text"] {
-    color: #171825 !important;
-}
-
-@layer primer-react {
-    .prc-Button-ButtonBase-c50BI:where([data-variant="default"]) {
-        color: #171825 !important;
-    }
-}
-
-.Box-sc-g0xbh4-0 {
-    background-color: transparent !important;
-}
-
-.UnderlineNav .Counter,
-.BorderGrid-cell .Counter {
-    color: #d1d7e0 !important;
-}
-
-.NotificationsSubscriptionsMenu-module__watchCounter--nAbhU,
-.btn .Counter {
-    background-color: transparent !important;
-    border: 1px solid #171825 !important;
-}
-
-.NotificationsSubscriptionsMenu-module__watchCounter--vgIup {
-    background-color: transparent !important;
-    border: 1px solid #171825 !important;
-}
-
-.Link--muted,
-.color-fg-muted,
-.filter-item,
-.fasVIL,
-.fgColor-muted,
-.chxevg,
-.eTeSjW,
-.ActionList-sectionDivider .ActionList-sectionDivider-title,
-.color-fg-subtle,
-.ActionListItem-visual,
-.Overlay-closeButton,
-.prc-Dialog-Dialog-luvDS .octicon,
-.OverviewContent-module__Button--MDoYP,
-.bSA-djh[data-size="medium"] svg,
-.react-directory-commit-age,
-.BorderGrid-cell .octicon-pulse,
-.BorderGrid-cell .octicon-star,
-.BorderGrid-cell .octicon-eye,
-.BorderGrid-cell .octicon-repo-forked,
-.BorderGrid-cell .Link,
-.react-directory-filename-column .octicon-file-directory-fill,
-.Subhead-description {
-    color: #737994 !important;
-}
-
-@layer primer-react {
-    .prc-FormControl-Caption-tfuKU,
-    .prc-Button-ButtonBase-c50BI:where([data-variant="invisible"]) .prc-Button-Visual-2epfX,
-    .prc-Button-ButtonBase-c50BI:where([data-variant="default"]),
-    .prc-components-UnderlineItem-lJsg- [data-component="icon"] {
+@-moz-document url-prefix("https://github.com/") {
+    body {
+        background-color: #1e1e2e !important;
         color: #737994 !important;
     }
-}
 
-.Link,
-.Button--link,
-.user-status-message-wrapper .color-fg-muted:hover,
-.Link--muted:hover,
-.Link--primary:hover,
-.Link--secondary:hover,
-.d-flex .Link {
-    color: #89b4fa !important;
-}
+    .Overlay,
+    .Box-sc-g0xbh4-0,
+    #\:r1c\:,
+    .prc-Dialog-Dialog-luvDS {
+        background-color: #1e1e2e !important;
+    }
 
-@layer primer-css-base {
-    .Link--inTextBlock {
+    .prc-Button-ButtonContent-HKbr- .hide-sm,
+    .prc-Button-ButtonContent-HKbr- .octicon-triangle-down,
+    .Box-sc-g0xbh4-0 .octicon-eye,
+    .Box-sc-g0xbh4-0 .octicon-triangle-down,
+    .Counter,
+    #\:rr\: .prc-Button-Label-pTQ3x[data-component="text"] {
+        color: #171825 !important;
+    }
+
+    @layer primer-react {
+        .prc-Button-ButtonBase-c50BI:where([data-variant="default"]) {
+            color: #171825 !important;
+        }
+    }
+
+    .Box-sc-g0xbh4-0 {
+        background-color: transparent !important;
+    }
+
+    .UnderlineNav .Counter,
+    .BorderGrid-cell .Counter {
+        color: #d1d7e0 !important;
+    }
+
+    .NotificationsSubscriptionsMenu-module__watchCounter--nAbhU,
+    .btn .Counter {
+        background-color: transparent !important;
+        border: 1px solid #171825 !important;
+    }
+
+    .NotificationsSubscriptionsMenu-module__watchCounter--vgIup {
+        background-color: transparent !important;
+        border: 1px solid #171825 !important;
+    }
+
+    .Link--muted,
+    .color-fg-muted,
+    .filter-item,
+    .fasVIL,
+    .fgColor-muted,
+    .chxevg,
+    .eTeSjW,
+    .ActionList-sectionDivider .ActionList-sectionDivider-title,
+    .color-fg-subtle,
+    .ActionListItem-visual,
+    .Overlay-closeButton,
+    .prc-Dialog-Dialog-luvDS .octicon,
+    .OverviewContent-module__Button--MDoYP,
+    .bSA-djh[data-size="medium"] svg,
+    .react-directory-commit-age,
+    .BorderGrid-cell .octicon-pulse,
+    .BorderGrid-cell .octicon-star,
+    .BorderGrid-cell .octicon-eye,
+    .BorderGrid-cell .octicon-repo-forked,
+    .BorderGrid-cell .Link,
+    .react-directory-filename-column .octicon-file-directory-fill,
+    .Subhead-description {
+        color: #737994 !important;
+    }
+
+    @layer primer-react {
+        .prc-FormControl-Caption-tfuKU,
+        .prc-Button-ButtonBase-c50BI:where([data-variant="invisible"]) .prc-Button-Visual-2epfX,
+        .prc-Button-ButtonBase-c50BI:where([data-variant="default"]),
+        .prc-components-UnderlineItem-lJsg- [data-component="icon"] {
+            color: #737994 !important;
+        }
+    }
+
+    .Link,
+    .Button--link,
+    .user-status-message-wrapper .color-fg-muted:hover,
+    .Link--muted:hover,
+    .Link--primary:hover,
+    .Link--secondary:hover,
+    .d-flex .Link {
         color: #89b4fa !important;
     }
-}
 
-@layer primer-css-base {
-    .mt-n3 .d-inline-block {
-        color: #89b4fa !important;
+    @layer primer-css-base {
+        .Link--inTextBlock {
+            color: #89b4fa !important;
+        }
     }
-}
 
-@layer primer-css-base {
-    .wb-break-all a {
-        color: #89b4fa !important;
+    @layer primer-css-base {
+        .mt-n3 .d-inline-block {
+            color: #89b4fa !important;
+        }
     }
-}
 
-@layer primer-react {
-    :where(.prc-Link-Link-85e08) {
-        color: #89b4fa !important;
+    @layer primer-css-base {
+        .wb-break-all a {
+            color: #89b4fa !important;
+        }
     }
-}
 
-.State--merged {
-    background-color: #b4befe !important;
-    box-shadow: 1px #b4befe !important;
-    color: #1e1e2e !important;
-}
+    @layer primer-react {
+        :where(.prc-Link-Link-85e08) {
+            color: #89b4fa !important;
+        }
+    }
 
-.color-fg-done {
-    color: #b4befe !important;
-}
+    .State--merged {
+        background-color: #b4befe !important;
+        box-shadow: 1px #b4befe !important;
+        color: #1e1e2e !important;
+    }
 
-.color-fg-success,
-.ixHFNt[data-size="medium"][data-no-visuals] {
-    color: #b3e6b0 !important;
-}
+    .color-fg-done {
+        color: #b4befe !important;
+    }
 
-@layer primer-react {
-    .prc-Button-ButtonBase-c50BI:where([data-variant="primary"]) {
+    .color-fg-success,
+    .ixHFNt[data-size="medium"][data-no-visuals] {
+        color: #b3e6b0 !important;
+    }
+
+    @layer primer-react {
+        .prc-Button-ButtonBase-c50BI:where([data-variant="primary"]) {
+            background-color: #b3e6b0 !important;
+            color: #1e1e2e !important;
+        }
+    }
+
+    .Button--primary {
         background-color: #b3e6b0 !important;
         color: #1e1e2e !important;
     }
-}
 
-.Button--primary {
-    background-color: #b3e6b0 !important;
-    color: #1e1e2e !important;
-}
+    .AppHeader .AppHeader-globalBar .AppHeader-context .AppHeader-context-item,
+    .AppHeader .AppHeader-globalBar .AppHeader-logo svg,
+    .footer-octicon {
+        color: #f5c2e7 !important;
+    }
 
-.AppHeader .AppHeader-globalBar .AppHeader-context .AppHeader-context-item,
-.AppHeader .AppHeader-globalBar .AppHeader-logo svg,
-.footer-octicon {
-    color: #f5c2e7 !important;
-}
+    .vcard-username,
+    .Link--secondary {
+        color: #949cbb !important;
+    }
 
-.vcard-username,
-.Link--secondary {
-    color: #949cbb !important;
-}
+    .UnderlineNav-octicon {
+        fill: #949cbb !important;
+    }
 
-.UnderlineNav-octicon {
-    fill: #949cbb !important;
-}
+    .AppHeader,
+    .bgColor-muted,
+    .OverviewRepoFiles-module__Box_3--Bi2jM {
+        background: #171825 !important;
+    }
 
-.AppHeader,
-.bgColor-muted,
-.OverviewRepoFiles-module__Box_3--Bi2jM {
-    background: #171825 !important;
-}
+    .btn-primary .octicon,
+    .btn .octicon {
+        color: #171825 !important;
+    }
+    .color-bg-default,
+    .d-md-flex {
+        background: #1e1e2e !important;
+    }
 
-.btn-primary .octicon,
-.btn .octicon {
-    color: #171825 !important;
-}
-.color-bg-default,
-.d-md-flex {
-    background: #1e1e2e !important;
-}
-
-.filter-item.selected,
-.filter-item[aria-current]:not([aria-current="false"]) {
-    background-color: #f5c2e7 !important;
-    color: #1e1e2e !important;
-}
-
-.btn {
-    background-color: #f5c2e7 !important;
-    color: #1e1e2e !important;
-}
-
-.btn:hover {
-    background-color: #f1a7dd !important;
-}
-
-@layer primer-react {
-    .d-md-block .prc-Button-ButtonBase-c50BI:where([data-variant="default"]) {
+    .filter-item.selected,
+    .filter-item[aria-current]:not([aria-current="false"]) {
         background-color: #f5c2e7 !important;
-        border: 1px solid #1e1e2e !important;
+        color: #1e1e2e !important;
     }
-}
 
-.Box,
-.Button.Button--iconOnly,
-.Button--secondary,
-.AppHeader .AppHeader-globalBar .AppHeader-search .AppHeader-searchButton,
-.AppHeader .AppHeader-button,
-.user-status-circle-badge,
-.TimelineItem-badge,
-.form-control {
-    background-color: #24273a !important;
-    border: 1px solid #494d64 !important;
-}
+    .btn {
+        background-color: #f5c2e7 !important;
+        color: #1e1e2e !important;
+    }
 
-@layer primer-react {
-    .prc-components-TextInputBaseWrapper-ueK9q,
-    .prc-Button-ButtonBase-c50BI:where([data-variant="default"]) {
+    .btn:hover {
+        background-color: #f1a7dd !important;
+    }
+
+    @layer primer-react {
+        .d-md-block .prc-Button-ButtonBase-c50BI:where([data-variant="default"]) {
+            background-color: #f5c2e7 !important;
+            border: 1px solid #1e1e2e !important;
+        }
+    }
+
+    .Box,
+    .Button.Button--iconOnly,
+    .Button--secondary,
+    .AppHeader .AppHeader-globalBar .AppHeader-search .AppHeader-searchButton,
+    .AppHeader .AppHeader-button,
+    .user-status-circle-badge,
+    .TimelineItem-badge,
+    .form-control {
         background-color: #24273a !important;
         border: 1px solid #494d64 !important;
     }
-}
 
-.Progress-item[style] {
-    background-color: #f5c2e7 !important;
-}
+    @layer primer-react {
+        .prc-components-TextInputBaseWrapper-ueK9q,
+        .prc-Button-ButtonBase-c50BI:where([data-variant="default"]) {
+            background-color: #24273a !important;
+            border: 1px solid #494d64 !important;
+        }
+    }
 
-.Progress-item[style*="width: 1%"],
-.Progress-item[style*="width: 2%"],
-.Progress-item[style*="width: 3%"],
-.Progress-item[style*="width: 4%"],
-.Progress-item[style*="width: 5%"],
-.Progress-item[style*="width: 6%"],
-.Progress-item[style*="width: 7%"],
-.Progress-item[style*="width: 8%"],
-.Progress-item[style*="width: 9%"],
-.Progress-item[style*="width: 10%"],
-.Progress-item[style*="width: 11%"],
-.Progress-item[style*="width: 12%"],
-.Progress-item[style*="width: 13%"],
-.Progress-item[style*="width: 14%"],
-.Progress-item[style*="width: 15%"],
-.Progress-item[style*="width: 16%"],
-.Progress-item[style*="width: 17%"],
-.Progress-item[style*="width: 18%"],
-.Progress-item[style*="width: 19%"],
-.Progress-item[style*="width: 20%"],
-.Progress-item[style*="width: 21%"],
-.Progress-item[style*="width: 22%"],
-.Progress-item[style*="width: 23%"],
-.Progress-item[style*="width: 24%"] {
-    background-color: #f5c2e7 !important;
-}
+    .Progress-item[style] {
+        background-color: #f5c2e7 !important;
+    }
 
-.Progress-item[style*="width: 2"][style*="%"],
-.Progress-item[style*="width: 3"][style*="%"],
-.Progress-item[style*="width: 4"][style*="%"] {
-    background-color: #f1a7dd !important;
-}
+    .Progress-item[style*="width: 1%"],
+    .Progress-item[style*="width: 2%"],
+    .Progress-item[style*="width: 3%"],
+    .Progress-item[style*="width: 4%"],
+    .Progress-item[style*="width: 5%"],
+    .Progress-item[style*="width: 6%"],
+    .Progress-item[style*="width: 7%"],
+    .Progress-item[style*="width: 8%"],
+    .Progress-item[style*="width: 9%"],
+    .Progress-item[style*="width: 10%"],
+    .Progress-item[style*="width: 11%"],
+    .Progress-item[style*="width: 12%"],
+    .Progress-item[style*="width: 13%"],
+    .Progress-item[style*="width: 14%"],
+    .Progress-item[style*="width: 15%"],
+    .Progress-item[style*="width: 16%"],
+    .Progress-item[style*="width: 17%"],
+    .Progress-item[style*="width: 18%"],
+    .Progress-item[style*="width: 19%"],
+    .Progress-item[style*="width: 20%"],
+    .Progress-item[style*="width: 21%"],
+    .Progress-item[style*="width: 22%"],
+    .Progress-item[style*="width: 23%"],
+    .Progress-item[style*="width: 24%"] {
+        background-color: #f5c2e7 !important;
+    }
 
-.Progress-item[style*="width: 5"][style*="%"],
-.Progress-item[style*="width: 6"][style*="%"] {
-    background-color: #ee96d6 !important;
-}
+    .Progress-item[style*="width: 2"][style*="%"],
+    .Progress-item[style*="width: 3"][style*="%"],
+    .Progress-item[style*="width: 4"][style*="%"] {
+        background-color: #f1a7dd !important;
+    }
 
-.Progress-item[style*="width: 7"][style*="%"],
-.Progress-item[style*="width: 8"][style*="%"],
-.Progress-item[style*="width: 9"][style*="%"] {
-    background-color: #eb84d0 !important;
-}
+    .Progress-item[style*="width: 5"][style*="%"],
+    .Progress-item[style*="width: 6"][style*="%"] {
+        background-color: #ee96d6 !important;
+    }
 
-.Progress-item[style*="width: 100%"] {
-    background-color: #eb84d0 !important;
-}
+    .Progress-item[style*="width: 7"][style*="%"],
+    .Progress-item[style*="width: 8"][style*="%"],
+    .Progress-item[style*="width: 9"][style*="%"] {
+        background-color: #eb84d0 !important;
+    }
 
-.js-yearly-contributions {
-    --contribution-default-bgColor-0: #24273a !important;
-    --contribution-default-bgColor-1: #f5c2e766 !important;
-    --contribution-default-bgColor-2: #f5c2e799 !important;
-    --contribution-default-bgColor-3: #f5c2e7CC !important;
-    --contribution-default-bgColor-4: #f5c2e7FF !important;
-}
+    .Progress-item[style*="width: 100%"] {
+        background-color: #eb84d0 !important;
+    }
 
-.ContributionCalendar-day rect {
-    fill: var(--contribution-default-bgColor, var(--contribution-default-bgColor-0)) !important;
-}
+    .js-yearly-contributions {
+        --contribution-default-bgColor-0: #24273a !important;
+        --contribution-default-bgColor-1: #f5c2e766 !important;
+        --contribution-default-bgColor-2: #f5c2e799 !important;
+        --contribution-default-bgColor-3: #f5c2e7CC !important;
+        --contribution-default-bgColor-4: #f5c2e7FF !important;
+    }
 
-@media (prefers-color-scheme: dark) {
-    .feed-item-content {
+    .ContributionCalendar-day rect {
+        fill: var(--contribution-default-bgColor, var(--contribution-default-bgColor-0)) !important;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .feed-item-content {
+            background-color: #24273a !important;
+            border: 1px solid #494d64 !important;
+        }
+    }
+
+    .copilotPreview {
         background-color: #24273a !important;
         border: 1px solid #494d64 !important;
     }
-}
 
-.copilotPreview {
-    background-color: #24273a !important;
-    border: 1px solid #494d64 !important;
-}
+    .color-bg-subtle {
+        background-color: #1e2030 !important;
+    }
 
-.color-bg-subtle {
-    background-color: #1e2030 !important;
-}
+    .dashboard-changelog .octicon.octicon-dot-fill {
+        fill: #1e2030 !important;
+    }
 
-.dashboard-changelog .octicon.octicon-dot-fill {
-    fill: #1e2030 !important;
-}
+    .color-border-default,
+    .color-border-muted,
+    .copilotPreview__footer .copilotPreview__suggestionButton,
+    .border,
+    .OverviewRepoFiles-module__Box_2--yIjMp,
+    .Table-module__Box--KyMHK {
+        border-color: #494d64 !important;
+    }
 
-.color-border-default,
-.color-border-muted,
-.copilotPreview__footer .copilotPreview__suggestionButton,
-.border,
-.OverviewRepoFiles-module__Box_2--yIjMp,
-.Table-module__Box--KyMHK {
-    border-color: #494d64 !important;
-}
+    .OverviewRepoFiles-module__Box_3--Bi2jM {
+        border-bottom-color: #494d64 !important;
+    }
 
-.OverviewRepoFiles-module__Box_3--Bi2jM {
-    border-bottom-color: #494d64 !important;
-}
+    @media (prefers-color-scheme: dark) {
+        .feed-item-content {
+            background-color: #24273a !important;
+            border-color: #24273a !important;
+        }
+    }
 
-::placeholder {
-    color: #737994 !important;
+    ::placeholder {
+        color: #737994 !important;
+    }
 }
